@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style_css/style.css">
+    <title>Formulário</title>
+</head>
+    <body>       
+        <header>
+            <nav>
+                <ul id="ul_nav">
+                    <li><a class="nav_link" href="index_home.html">Home</a></li>
+                    <li><a class="nav_link" href="#">Mapa</a></li>
+                    <li><a class="nav_link" href="index_cursos.html">Cursos</a></li>
+                    <li><a class="nav_link" href="index_form.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>    
+            <h1><b>IFRN Campus Canguaretama.</b></h1>
+
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" maxlength="60" placeholder="Seu nome completo" required>
+                    </p>
+                    
+                    <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" maxlength="30" placeholder="exemplo@email.com" required>
+                    </p>
+
+                    <p>
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="tel" id="telefone" name="telefone" maxlength="15" placeholder="(00) 00000-0000" required>
+                    </p>
+
+                    <p>
+                    <label for="nascimento">Data de Nascimento:</label><br>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Opções do Curso</legend>
+                    <p>
+                    <label for="curso">Selecione o Curso:</label><br>
+                    <select id="curso" name="curso" required>
+                        <option value="">---Escolha---</option>
+                        <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                        <option value="es">Engenharia de Software</option>
+                        <option value="admin">Administração</option>
+                        <option value="matematica">Licenciatura em Educação do Campo - Matemática</option>
+                        <option value="humanas">Licenciatura em Educação do Campo - Ciências Humanas e Sociais</option>
+                        <option value="gestao_turismo">Tecnologia em Gestão do Turismo</option>
+                        <option value="sistemas_internet">Tecnologia em Sistemas para Internet</option>
+                    </select>
+                    </p>
+                    
+                    <p>
+                    <label>Modalidade:</label><br>
+                    <input type="radio" id="presencial" name="modalidade" value="presencial" checked>
+                    <label for="presencial">Presencial</label>
+                    
+                    <input type="radio" id="ead" name="modalidade" value="ead">
+                    <label for="ead">EAD</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Informações Adicionais</legend>
+                    <p>
+                    <textarea id="observacoes" name="observacoes" rows="5" cols="50"
+                    maxlength="200" placeholder="Observações adicionais..."></textarea>
+                    </p>
+                </fieldset>
+                    <p>
+                        <button type="submit">Enviar</button>
+                    </p>
+            </form>          
+    
+        <footer>
+            <p>Campus Canguaretama<br>
+            Endereço:BR 101, Km 160, s/n, Areia Branca<br>email: gabin.cang@ifrn.edu.br <br> Canguaretama-RNCEP:59190-000<br>Telefone:(84) 4005-4114</p>
+            <p>Copyright © 2024 IFRN Campus Canguaretama. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
