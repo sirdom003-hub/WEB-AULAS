@@ -10,12 +10,12 @@ time.sleep(2)
 pyautogui.write('https://suap.ifrn.edu.br&#39')
 pyautogui.press('enter')
 time.sleep(2)
-pyautogui.click(x,y)
+pyautogui.click(10,10)
 pyautogui.write('matricula')
-pyautogui.click(x,y)
+pyautogui.click(10,10)
 pyautogui.write('senha')
 time.sleep(1)
-pyautogui.click(x,y)
+pyautogui.click(10,10)
 
 # para obter a posição de x e y, use o código abaixo
 
