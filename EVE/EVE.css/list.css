@@ -1,0 +1,76 @@
+.container-tabela {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+table {
+    align-items: center;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+th, td {
+    border: 1px solid #000000;
+    padding: 12px 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+th {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.header-title {
+    background-color: #590061;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.ano {
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #dfcdd6;
+    color: #0f172a;
+}
+.mes {
+    font-weight: bold;
+    background-color: #f8fafc;
+    color: #334155;
+}
+.ficticio {
+    color: #8b5cf6;
+    font-weight: bold;
+}
+.real {
+    color: #10b981;
+    font-weight: bold;
+}
+.lista {
+    color: #dbf307;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    background-color: #590061;
+    transition: all 0.2s;
+}
+.lista:hover {
+    background-color: #eb25eb;
+    color: #dbf307;
+}
+.legenda {
+    text-align: left;
+    font-size: 13px;
+    background-color: #fcfcfc;
+}
