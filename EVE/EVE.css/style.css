@@ -4,16 +4,34 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(29, 2, 63) ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.251), rgba(0, 0, 0, 0.484)), url("../EVE_img/03.jpg");
+    font-family: "Archivo Black", sans-serif;
+}
+
+.logo {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.925);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(32, 58, 42, 0.174);
+    box-shadow: white 0px 0px 10px;
+    padding: 10px 20px;
 }
 
 #menu {
-    display: block;
-    margin: 0;
-    padding: 0;
-    padding: 10px 20px;
-    background-color: black;
-    box-shadow: white 0px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
 }
 
 ul {
@@ -25,45 +43,106 @@ ul {
 }
 
 li {
-    margin-right: 20px;
+    padding: 10px 20px;
+    text-align: left;
 }
 
 nav a {
     text-decoration: none;
-    color: rgb(248, 240, 225);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.925);
+    font-weight: 700;
+    transition: all 0.3s ease;
 }
 
 a:hover {
-    color: rgb(255, 3, 79);
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.925);
     transition: all 0.3s ease;
 }
 
 #hm {
-    text-decoration: underline;
     margin-top: 40px;
-    color: rgb(226, 120, 185);
+    color: #FFFFFF;
     text-align: center;
     font-size: 6em;
-    cursor: pointer;
-}
-span {
-    color: rgb(255, 3, 79);
+    text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.925);
 }
 
-h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(226, 120, 185);
-    text-align: center;
+.relogio {
+    text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.925);
     font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.tempo-bloco {
+  background: rgba(0, 0, 0, 0.671);
+  border: 1px solid rgba(255, 0, 127, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 15px 20px;
+  border-radius: 10px;
+  min-width: 80px;
+}
+
+.tempo-bloco span {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+  display: block;
+}
+
+.tempo-bloco small {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #ff0000;
+  font-weight: 700;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    background: rgba(0, 0, 0, 0.671);
+    border: 1px solid rgba(255, 0, 127, 0.3);
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.5);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 5%;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #ff0000;
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.5);
+    transition: all 0.3s ease;
 }
 
 footer {
-    box-shadow: white 0px 0px 10px;
-    background-color: black;
-    color: rgb(248, 240, 225);
+    font-size: 1.3em;
+    box-shadow: white 0 0 10px;
+    background-color: rgba(32, 58, 42, 0.192);
+    color: #cfcfcf;
     text-align: center;
-    padding: 30px;
-    bottom: 0;
-    width: 100%;
+    padding: 16px;
+    max-width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.192);
+    font-weight: 700;
+    border-top: 1px solid #222222;
+    margin-top: 90px;
 }

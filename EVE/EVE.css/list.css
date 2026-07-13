@@ -1,7 +1,17 @@
+#list-body {
+   background-image:linear-gradient(rgba(0, 0, 0, 0.251), rgba(0, 0, 0, 0.484)), url("../EVE_img/02.jpg");
+    font-family: "Archivo Black", sans-serif;
+    background-size: cover;
+    background-position: center;
+    font-weight: 700;
+}
+
 .container-tabela {
     display: flex;
     justify-content: center;
     width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.192);
+    font-weight: 700;
 }
 
 table {
@@ -9,7 +19,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     max-width: 1000px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.829);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -32,45 +42,51 @@ th {
     letter-spacing: 1px;
 }
 .header-title {
-    background-color: #590061;
+    background-color: #000000;
     font-size: 18px;
     letter-spacing: 2px;
 }
 .ano {
     font-weight: bold;
     font-size: 22px;
-    background-color: #dfcdd6;
+    background-color: rgba(255, 255, 255, 0.196);
     color: #0f172a;
 }
 .mes {
     font-weight: bold;
-    background-color: #f8fafc;
+    background-color: rgba(255, 255, 255, 0.196);
     color: #334155;
 }
 .ficticio {
-    color: #8b5cf6;
+    color: #4c00ff;
     font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.192);
 }
 .real {
-    color: #10b981;
+    color: #ff0000;
     font-weight: bold;
+     text-shadow: 2px 2px 4px rgba(0, 6, 8, 0.192);
 }
 .lista {
-    color: #dbf307;
+    background: rgba(0, 0, 0, 0.413);
+    border: 1px solid rgba(19, 1, 77, 0.3);
+    box-shadow: 0 0 10px rgba(17, 0, 95, 0.79);
+    color: #ffffffda;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 10px;
-    border: 1px solid #bebebe;
     border-radius: 4px;
-    background-color: #590061;
     transition: all 0.2s;
 }
 .lista:hover {
-    background-color: #eb25eb;
-    color: #dbf307;
+    background-color: #4c4c4c;
+    color: #ff0000;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.5);
 }
 .legenda {
     text-align: left;
     font-size: 13px;
-    background-color: #fcfcfc;
+    background-color: #000000;
+    color: #ffffff;
 }
